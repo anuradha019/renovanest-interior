@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .navbar{
+    width: 100%;
+    z-index: 1000;
+    background-color: #ebdddc;
+  }
+  .navbar a {
+    color: #613659;
+    font-weight: bold;
+  }
+  .navbar-brand img {
+    height: 40px;
+  }
+.navbar-toggler{
+    color: #613659;
+    border: 2px solid #613659;
+    padding: 1px 2px;
+}
+.navbar-toggler-icon {
+    z-index: 1001;
+
+}
+  .head {
+    height: 66px;
+  }
+  .hero-section {
+    background: url("img/hero2.jpg") no-repeat center center;
+    background-size: cover;
+    color: #613659;
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 66px; */
+    /* padding: 100px 0; */
+  }
+.section-title {
+    margin: 50px 0 30px;
+    font-weight: bold;
+}
+.card {
+    background-color: #ebdddc;
+    color: black;
+    opacity: 0.75;
+}
+
+.card:hover {
+    box-shadow: 0 5px 10px black;
+}
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+.card-title {
+    color: #613659;
+    font-weight: bold;
+}
+#why-choose-us {
+    background-color: #ebdddc;
+}
+
+#contact {
+    background: url("img/hero.jpg") no-repeat left top;
+    background-size: 120%;
+}
+#email a {
+    text-decoration: none;
+    color: black;
+}
+
+#email a:hover {
+    color: #613659;
+}
+
+#enquiry{
+    text-decoration: none;
+    border: 2px solid #613659;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #ebdddc;
+    background-color: #613659;
+}
+
+#enquiry:hover {
+    background-color: #8f4882;
+    border: 2px solid #8f4882;
+    color: rgba(0, 0, 0, 0.488);
+}
+
+  footer {
+    background: #A49393;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+  }

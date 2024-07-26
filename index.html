@@ -10,11 +10,11 @@
     />
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <header class="header">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light position-fixed" >
+    <nav class="navbar navbar-expand-lg navbar-light" >
       <a class="navbar-brand" href="#"
-        ><img src="img/logo.jpg" alt="RenovaNest Interiors"
+        ><img src="img/logo.png" alt="RenovaNest Interiors"
       /></a>
       <button
         class="navbar-toggler"
@@ -47,21 +47,18 @@
         </ul>
       </div>
     </nav>
-    
-    <div class="head"></div>
-
+  </header>
     <!-- Home Section -->
     <section id="home" class="hero-section">
       <div class="container">
         <h1>Welcome to RenovaNest Interiors</h1>
         <p>
-          <strong>
+          
             RenovaNest Interiors, we specialize in providing top-notch
             residential and commercial property maintenance services. Our
             commitment to excellence and customer satisfaction sets us apart as
             the preferred choice for property owners looking to maintain and
-            enhance their spaces.</strong
-          >
+            enhance their spaces.
         </p>
       </div>
     </section>
@@ -70,17 +67,17 @@
     <section id="services" class="py-5">
       <div class="container">
         <h2 class="section-title text-center">Our Services</h2>
-        <p class="text-center">
+        <p class="text-center sub-heading">
           We offer a comprehensive range of services to cater to all your
           property maintenance needs:
         </p>
-        <div class="row">
+        <div class="row justify-content-center">
           <!-- Painting Service -->
           <div class="col-md-4">
             <div class="card mb-4">
               <img src="img/painting.jpg" class="card-img-top" alt="Painting" />
               <div class="card-body">
-                <h5 class="card-title text-center ">Painting</h5>
+                <h5 class="card-title ">Painting</h5>
                 <p class="card-text">
                   Transform your home or office with our professional painting
                   services. Whether it's a fresh coat of paint for your
@@ -99,7 +96,7 @@
                 alt="Electrical"
               />
               <div class="card-body">
-                <h5 class="card-title text-center">Electrical</h5>
+                <h5 class="card-title">Electrical</h5>
                 <p class="card-text">
                   Ensure the safety and efficiency of your property with our
                   expert electrical services. From installations to repairs and
@@ -118,7 +115,7 @@
                 alt="Plumbing"
               />
               <div class="card-body">
-                <h5 class="card-title text-center">Plumbing</h5>
+                <h5 class="card-title">Plumbing</h5>
                 <p class="card-text">
                   Say goodbye to leaks and plumbing issues with our reliable
                   plumbing services. Our experienced plumbers provide quick and
@@ -128,14 +125,11 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <!-- Carpentry Service -->
           <div class="col-md-4">
             <div class="card mb-4">
               <img src="img/kitchen.jpg" class="card-img-top" alt="Carpentry" />
               <div class="card-body">
-                <h5 class="card-title text-center">Carpentry</h5>
+                <h5 class="card-title">Carpentry</h5>
                 <p class="card-text">
                   Enhance the beauty and functionality of your space with our
                   custom carpentry services. From furniture repairs to bespoke
@@ -166,7 +160,7 @@
                 alt="Deep Cleaning"
               />
               <div class="card-body">
-                <h5 class="card-title text-center">Deep Cleaning</h5>
+                <h5 class="card-title">Deep Cleaning</h5>
                 <p class="card-text">
                   Experience a spotless home or office with our deep cleaning
                   services. We use advanced cleaning techniques and eco-friendly
@@ -184,10 +178,11 @@
     <section id="who-we-serve" class="py-5 bg-light">
       <div class="container">
         <h2 class="section-title text-center">Who We Serve</h2>
-        <div class="row">
+        <div class="row my-5">
           <div class="col-md-3">
-            <div class="card mb-4">
+            <div class="card mb-4 serveCards">
               <div class="card-body text-center">
+                <div class="iconServe"><img src="img/flat.png" alt=""></div>
                 <h5 class="card-title">Flat Owners</h5>
                 <p class="card-text">
                   Keep your apartment in pristine condition with our range of
@@ -197,8 +192,9 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="card mb-4">
+            <div class="card mb-4 serveCards">
               <div class="card-body text-center">
+                <div class="iconServe"><img src="img/villa.png" alt=""></div>
                 <h5 class="card-title">Villa Owners</h5>
                 <p class="card-text">
                   Preserve the elegance and functionality of your villa with our
@@ -208,8 +204,9 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="card mb-4">
+            <div class="card mb-4 serveCards">
               <div class="card-body text-center">
+                <div class="iconServe"><img src="img/standalone.png" alt=""></div>
                 <h5 class="card-title">Standalone Building Owners</h5>
                 <p class="card-text">
                   Ensure your property remains in top shape with our
@@ -219,8 +216,9 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="card mb-4">
+            <div class="card mb-4 serveCards">
               <div class="card-body text-center">
+                <div class="iconServe"><img src="img/commercial.png" alt=""></div>
                 <h5 class="card-title">Commercial Property Owners</h5>
                 <p class="card-text">
                   Maintain the professional appearance and functionality of your
@@ -233,64 +231,42 @@
       </div>
     </section>
 
-    <!-- Why Choose Us Section -->
-    <section id="why-choose-us" class="py-5">
-      <div class="container">
-        <h2 class="section-title text-center">
-          Why Choose RenovaNest Interiors?
-        </h2>
-        <ul class="list-unstyled text-center">
-          <li>
-            Experienced Professionals: Our team consists of skilled
-            professionals with years of experience in their respective fields.
-          </li>
-          <li>
-            Quality Assurance: We use high-quality materials and the latest
-            techniques to deliver exceptional results.
-          </li>
-          <li>
-            Customer-Centric Approach: Your satisfaction is our top priority. We
-            work closely with you to understand your needs and provide tailored
-            solutions.
-          </li>
-          <li>
-            Affordable Pricing: We offer competitive pricing without
-            compromising on quality.
-          </li>
-        </ul>
-      </div>
-    </section>
-
     <!-- Contact Us Section -->
     <section id="contact" class="py-5 bg-light">
       <div class="container">
-        <h2 class="section-title text-center">Contact Us</h2>
-        <p class="text-center">Phone: [Your Phone Number]</p>
-        <p id="email" class="text-center">Email: <a href="mailto:Service@renovanest.in">Service@renovanest.in</a></p>
-        <div class="row justify-content-center">
-          <a id="enquiry" target="_blank" href="https://forms.gle/2rftKo8f5LK4qhUE7">Enquiry Form</a>
-          <!-- <div class="col-md-6">
-            <form>
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" class="form-control" id="name" required />
-              </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" required />
-              </div>
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea
-                  class="form-control"
-                  id="message"
-                  rows="4"
-                  required
-                ></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-          </div> -->
+        <div class="row">
+
+          <div class="col-12 col-md-6">
+            <h2 class="section-title">
+              Why Choose RenovaNest Interiors?
+            </h2>
+            <ul class="list-unstyled">
+              <li>
+                Experienced Professionals: Our team consists of skilled
+                professionals with years of experience in their respective fields.
+              </li>
+              <li>
+                Quality Assurance: We use high-quality materials and the latest
+                techniques to deliver exceptional results.
+              </li>
+              <li>
+                Customer-Centric Approach: Your satisfaction is our top priority. We
+                work closely with you to understand your needs and provide tailored
+                solutions.
+              </li>
+              <li>
+                Affordable Pricing: We offer competitive pricing without
+                compromising on quality.
+              </li>
+            </ul>
+            <p class="contactLink"><i class="bi bi-telephone-outbound"></i> [Your Phone Number]</p>
+            <p id="email" class="contactLink"><i class="bi bi-envelope-arrow-up"></i> <a href="mailto:Service@renovanest.in">Service@renovanest.in</a></p>
+            <a id="enquiry" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc_hJa5J8zTpugv2mWRlS2R-J-xq99Zr9Re-puyg7tfeaPniw/viewform">Enquiry Form</a>
+
+          </div>
+
+          <div class="col-12 col-md-6 bgImageContact"></div>
+          
         </div>
       </div>
     </section>
@@ -307,7 +283,9 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script> -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+
   </body>
 </html>

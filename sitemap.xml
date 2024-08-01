@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://renovanest.in/</loc>
+      <lastmod>2024-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <!-- Add more <url> entries for each page -->
+   <!-- <url>
+      <loc>https://renovanest.in/about</loc>
+      <lastmod>2024-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://renovanest.in/services</loc>
+      <lastmod>2024-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://renovanest.in/contact</loc>
+      <lastmod>2024-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url> -->
+</urlset>
